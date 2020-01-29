@@ -39,3 +39,5 @@ var nuovoStudente = {
   'eta': prompt('inserisci l\ età'),
 };
 console.log(nuovoStudente);
+classe.push(nuovoStudente);
+console.log(classe);
