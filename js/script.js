@@ -29,7 +29,7 @@ var classe = [
 ];
 
 for (var i = 0; i < classe.length; i++) {
-  console.log (classe[i]);
+  console.log(classe[i].nome + ' ' + classe[i].cognome);
 }
 
 //Dare la possibilità all’utente attraverso 3 prompt di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
