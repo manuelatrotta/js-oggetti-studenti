@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.3.1/handlebars.min.js"</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.2/handlebars.js" integrity="sha256-N5vR06TQIR+YD8oS0yndB1pu/EITeijW52dwezEq7/g=" crossorigin="anonymous"></script>
     <title>handlebars</title>
   </head>
   <body>
@@ -14,11 +15,11 @@
     </ul>
   <script id="entry-template" type="text/x-handlebars-template">
       <li class="entry">
-        <h1>{{title}}</h1>
-        <small> <small>
+        <h1>{{message}}</h1>
+        <small>{{date}} <small>
       </li>
   </script>
 
-  <script src="js/script.js" charset="utf-8"></script>  
+  <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
