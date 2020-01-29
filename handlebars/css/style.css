@@ -1,0 +1,8 @@
+body{
+  background-color: yellow;
+}
+
+input{
+  width: 100%;
+  border: 2px purple;
+}
